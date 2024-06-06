@@ -25,7 +25,7 @@ Design: [Eduhouse](https://dribbble.com/shots/14735947--Eduhouse-Education-Manag
 - CSS flex
 - CSS grid
 - SVG images
-- **NO** responsive design
+- _**NO**_ responsive design
 
 ## 🧰 Getting Started
 
