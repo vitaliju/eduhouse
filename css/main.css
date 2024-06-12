@@ -2,52 +2,17 @@
      box-sizing: border-box;
  }
  body {
-     display: inline-block;
-     width: 100%;
+     display: grid;
+     grid-template-columns: 300px 1fr;
      margin: 0;
+     background-color: bisque;
+     min-height: 100vh;
  }
 
  aside {
-     background-color: yellow;
-     float: left;
-     width: 310px;
-     height: 500px;
-     border: 50px solid red;
-     padding: 20px;
-
+     background-color: ;
  }
 
- main,
- div {
-     background-color: aqua;
-     width: calc((100% - 310px) / 2);
-     float: left;
-     height: 500px;
+ main {
+     background-color: white;
  }
-
- div {
-    background-color: bisque;
- }
-section {
-    display: inline-block;
-    width: 100%;
-    background-color: cyan;
-    padding: 50px;
-}
-
-p {
-    border: 1px solid salmon;
-    margin-bottom: 10px;
-}
-
-p:first-child {
-    background-color: blue;
-}
-
-p:nth-child(5) {
-    background-color: burlywood;
-}
-p:last-child {
-    background-color: chartreuse;
-}
- 
