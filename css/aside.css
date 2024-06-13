@@ -1,0 +1,41 @@
+aside {
+    padding: 30px;
+    padding-left: 0;
+    background-color: bisque;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-group-title {
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    background-color: white;
+    color: orange;
+}
