@@ -1,6 +1,9 @@
 aside {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding: 30px;
-    padding-left: 0;
+    padding-left: 0px;
     background-color: bisque;
 }
 

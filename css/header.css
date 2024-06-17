@@ -1,0 +1,30 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.form {
+
+}
+
+.form > input {
+
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.inotificatuions {
+    font-size: 30px;
+    color: #333;
+}
+
+.avatar {
+    height: 50px;
+    border-radius: 50%;
+}
