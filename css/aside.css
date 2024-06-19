@@ -7,38 +7,38 @@ aside {
     background-color: bisque;
 }
 
-.logo {
+aside .logo {
     margin-left: 30px;
 }
 
-.main-nav {
+aside .main-nav {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.nav-group {
+aside .nav-group {
     display: flex;
     flex-direction: column;
 }
 
-.nav-group-title {
+aside .nav-group-title {
     margin-left: 30px;
     text-transform: uppercase;
 }
 
-.nav-list {
+aside .nav-list {
     display: flex;
     flex-direction: column;
 }
 
-.link {
+aside .link {
     padding: 10px 40px;
     text-decoration: none;
     color: black;
 }
 
-.active {
+aside .active {
     background-color: white;
     color: orange;
 }

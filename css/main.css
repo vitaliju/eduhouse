@@ -6,16 +6,65 @@ body {
      display: grid;
      grid-template-columns: 300px 1fr;
      margin: 0;
-     background-color: bisque;
      min-height: 100vh;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main {
+     display: grid;
+     grid-template-columns: 1fr 2fr 1fr;
+     grid-template-areas: 
+     'header header header'
+     'progress progress subscription'
+     'popular mentors mentors';
+     align-items: start;
+     align-content: start;
+     padding: 20px 30px;
+     gap: 50px;
      background-color: white;
 }
 
+.course-progress {
+     grid-area: progress;
+}
 
+.subscription {
+     grid-area: subscription;
+}
 
+.popular-categories {
+     grid-area: popular;
+}
 
+.top-mentors {
+     grid-area: mentors;
+}
+
+.block {
+     display: grid;
+     grid-template-columns: auto auto;
+     gap: 20px;
+}
+
+.block.block-bg {
+     padding: 20px;
+     background-color: #EEFCEF;
+     border-radius: 30px;
+}
+
+.block > .title {
+     margin: 0px;
+     font-size: 20px;
+}
  
+.block > .link {
+     align-self: center;
+     justify-self: end;
+     font-size: 14px;
+     text-decoration: none;
+     color: #333;
+}
+
+.block > .content {
+     grid-column: span 2;
+}
