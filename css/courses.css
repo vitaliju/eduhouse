@@ -1,0 +1,115 @@
+:root {
+    /*--cr: 0;
+    --cg: 255;
+    --cb: 255;
+    --color1: rgba(var(--cr), var(--cg), var(--cb), 1);
+    --color2: rgba(var(--cr), var(--cg), var(--cb), 0.1);
+    --color3: rgba(var(--cr), var(--cg), var(--cb), 1);*/
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+}
+
+.course-list > .course {
+    --cr: 0;
+    --cg: 255;
+    --cb: 255;
+    --color1: rgba(var(--cr), var(--cg), var(--cb), 1);
+    --color2: rgba(var(--cr), var(--cg), var(--cb), 0.1);
+    --color3: rgba(var(--cr), var(--cg), var(--cb), 0.5);
+    width: 100%;
+    padding: 20px 30px;
+    background-color: var(--color2);
+    border-radius: 20px;
+}
+.course-list>.course.violet {
+    --cr: 129;
+    --cg: 111;
+    --cb: 233;
+}
+.course-list>.course.orange {
+    --cr: 249;
+    --cg: 115;
+    --cb: 54;
+}
+.course-list>.course.teal {
+    --cr: 11;
+    --cg: 167;
+    --cb: 208;
+}    
+.course > .details {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.course .date {
+    color: #333;
+}
+
+.course .date::before {
+    content: 'Start: ';
+    color: var(--color3);
+}
+
+.course .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.course > .title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--color1);
+}
+
+.course > .learn {
+    font-weight: bold;
+}
+
+.course > .progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-bar .progress {
+    --h: 8px;
+    width: 100%;
+    height: var(--h);
+    background-color: var(--color3);
+    border-radius: var(--h);
+}
+
+.progress-bar .bar {
+    width: 40%;
+    height: 100%;
+    background-color: var(--color1);
+    border-radius: inherit;
+    position: relative;
+}
+/* pseudo selector rasomas :*/
+/* pseudo element rasomas ::*/
+.progress-bar .bar::after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 5px solid var(--color1);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.progress-bar .value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
