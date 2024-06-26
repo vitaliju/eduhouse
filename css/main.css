@@ -1,7 +1,6 @@
 * {
      box-sizing: border-box;
 }
-
 body {
      display: grid;
      grid-template-columns: 300px 1fr;
@@ -9,7 +8,6 @@ body {
      min-height: 100vh;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 main {
      display: grid;
      grid-template-columns: 1fr 2fr 1fr;
@@ -23,40 +21,32 @@ main {
      gap: 50px;
      background-color: white;
 }
-
 .course-progress {
      grid-area: progress;
 }
-
 .subscription {
      grid-area: subscription;
 }
-
 .popular-categories {
      grid-area: popular;
 }
-
 .top-mentors {
      grid-area: mentors;
 }
-
 .block {
      display: grid;
      grid-template-columns: auto auto;
-     gap: 20px;
+     gap: 20px 20px;
 }
-
 .block.block-bg {
      padding: 20px;
      background-color: #EEFCEF;
      border-radius: 30px;
 }
-
 .block > .title {
      margin: 0px;
      font-size: 20px;
 }
- 
 .block > .link {
      align-self: center;
      justify-self: end;
@@ -65,6 +55,41 @@ main {
      color: #333;
 }
 
-.block > .content {
+.block> .content {
+     margin-top: 2.8rem;
      grid-column: span 2;
+}
+.block> .title + .content {
+     margin-top: 0rem;
+     grid-column: span 2;
+}
+.block> .link +.content {
+     margin-top: 0rem;
+     grid-column: span 2;
+}
+.subscription .content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #feefd0;
+     padding: 1rem;
+     text-align: center;
+     border-radius: 1rem;
+}
+.subscription .content > img {
+     margin-top: -100px;
+}
+.yellow-submarine {
+     display: inline-block;
+     padding: 0.5em 2em;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     background-color: orange;
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     border: none;
+     border-radius: 0.3em;
+     cursor: pointer;
+     user-select: none;
 }
