@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vitaliju.github.io/bit-eduhouse/
+Site published at: https://vitaliju.github.io/portfolio-eduhouse/
 
 Design: [Eduhouse](https://dribbble.com/shots/14735947--Eduhouse-Education-Management-Dashboard-Design/attachments/6437950?mode=media)
 
@@ -49,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vitaliju/bit-eduhouse.git
+   git clone https://github.com/vitaliju/portfolio-eduhouse.git
    ```
 2. Install NPM packages
    ```sh
