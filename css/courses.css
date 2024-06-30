@@ -9,7 +9,7 @@
 
 .course-list {
     display: flex;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .course-list > .course {
@@ -20,9 +20,9 @@
     --color2: rgba(var(--cr), var(--cg), var(--cb), 0.1);
     --color3: rgba(var(--cr), var(--cg), var(--cb), 0.5);
     width: 100%;
-    padding: 20px 30px;
+    padding: 1.2rem 1.9rem;
     background-color: var(--color2);
-    border-radius: 20px;
+    border-radius: 1.2rem;
 }
 .course-list>.course.violet {
     --cr: 129;
@@ -55,8 +55,8 @@
 }
 
 .course .icon {
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
     background-color: #fff;
     border-radius: 50%;
 }
@@ -64,7 +64,7 @@
 .course > .title {
     margin: 0;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.3rem;
     color: var(--color1);
 }
 
@@ -75,11 +75,11 @@
 .course > .progress-bar {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .progress-bar .progress {
-    --h: 8px;
+    --h: 0.5rem;
     width: 100%;
     height: var(--h);
     background-color: var(--color3);
@@ -107,14 +107,14 @@
 .progress-bar .values::after {
     content: '';
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 0.8rem;
+    height: 0.8rem;
     background-color: #fff;
     border: 5px solid var(--color1);
     border-radius: 50%;
     position: absolute;
-    top: -8px;
-    right: -10px;
+    top: -0.5rem;
+    right: -0.8rem;
 }
 
 .progress-bar .value {

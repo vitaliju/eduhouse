@@ -1,20 +1,20 @@
 aside {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 30px;
-    padding-left: 0px;
+    gap: 2.5rem;
+    padding: 1.9rem;
+    padding-left: 0rem;
     background-color: bisque;
 }
 
 aside .logo {
-    margin-left: 30px;
+    margin-left: 1.9rem;
 }
 
 aside .main-nav {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.9rem;
 }
 
 aside .nav-group {
@@ -23,7 +23,7 @@ aside .nav-group {
 }
 
 aside .nav-group-title {
-    margin-left: 30px;
+    margin-left: 1.9rem;
     text-transform: uppercase;
 }
 
@@ -33,7 +33,7 @@ aside .nav-list {
 }
 
 aside .link {
-    padding: 10px 40px;
+    padding: 0.6rem 2.5rem;
     text-decoration: none;
     color: black;
 }
